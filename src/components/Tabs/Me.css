@@ -1,11 +1,11 @@
 .Me__FirstRow{
-    margin-left: 90px;
+    margin-left: 0px;
 }
 .Me__SecondRow{
-    margin-left: 60px;
+    margin-left: 0px;
 }
 .Me__ThirdRow{
-    margin-left: 90px;
+    margin-left: 0px;
 }
 .Me__contact{
     float: left;
@@ -29,7 +29,7 @@
     position: absolute;
     width: 759px;
     top: 78px;
-     left: -120px; 
+     left: -220px; 
     background-color: #CC9B66;
     height: 2px;
 }
@@ -58,7 +58,7 @@
     position: absolute;
     width: 759px;
     top: 58px;
-    left: -220px;
+    left: -320px;
     background-color: #CC9B66;
     height: 2px;
 }
@@ -83,7 +83,7 @@
     position: absolute;
     width: 759px;
     top: 30px;
-    left: -100px;
+    left: -200px;
     background-color: #CC9B66;
     height: 2px;
 }
