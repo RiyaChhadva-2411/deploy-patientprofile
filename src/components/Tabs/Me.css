@@ -1,11 +1,11 @@
 .Me__FirstRow{
-    margin-left: -60px;
+    margin-left: 90px;
 }
 .Me__SecondRow{
-    margin-left: -60px;
+    margin-left: 60px;
 }
 .Me__ThirdRow{
-    margin-left: -60px;
+    margin-left: 90px;
 }
 .Me__contact{
     float: left;
@@ -21,7 +21,7 @@
     font-weight: 300;
     font-size: 18px;
     display: block;
-    left: 50px;
+    left: 200px;
     color: #291E17;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -29,7 +29,7 @@
     position: absolute;
     width: 759px;
     top: 78px;
-    left: -120px;
+     left: -120px; 
     background-color: #CC9B66;
     height: 2px;
 }
@@ -48,7 +48,7 @@
     float: right;
    font-size: 18px;
    position: absolute;
-   left: 145px;
+   left: 300px;
    top: 330px;
    display:block;
    color: #291E17;
@@ -58,7 +58,7 @@
     position: absolute;
     width: 759px;
     top: 58px;
-    left: -215px;
+    left: -220px;
     background-color: #CC9B66;
     height: 2px;
 }
@@ -74,7 +74,7 @@
     float: right;
     position: absolute;
     top:450px;
-    left: 30px;
+    left: 180px;
     font-size: 18px;
     font-weight: 300;
     color: #291E17;

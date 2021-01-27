@@ -17,7 +17,7 @@ class Profile extends React.Component{
         return(
               <div className="container-fluid Profile__container">
                   <div className="row">
-                      <div className="col-md-5">
+                      <div className="col-md-4">
                           <div className="Profile__first">
                               <img src={woman} alt="photo_of_woman" className="Profile__photo" />
                            </div>
@@ -43,7 +43,7 @@ class Profile extends React.Component{
                         </div>
                     </div>
                        
-                       <div className="col-md-7">
+                       <div className="col-md-8">
                            <Tabs>
                                <TabList>
                                    <Tab>Me</Tab>
