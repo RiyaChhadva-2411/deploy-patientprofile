@@ -1,18 +1,17 @@
-/*Desktop view*/
-.Me__property{
+.I__property{
     color:#291E17;
     font-style: normal;
     font-size: 18px;
     line-height: 21px;
     font-weight: bold;
 }
-.Me__value{
+.I__value{
     font-size: 18px;
     line-height: 28px;
     font-weight: 300;
     color: #291E17;
 }
-.Me__hr{
+.I__hr{
     width: 689px;
     height: 0px;
     border: 2px solid #CC9B66;
@@ -20,5 +19,4 @@
     margin-left: 0px;
     margin-top: 10px;
     margin-bottom: 50px;
-
 }

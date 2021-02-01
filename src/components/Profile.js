@@ -10,7 +10,8 @@ import rectangle from "../svg/Rectangle.png";
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Me from "../components/Tabs/Me.js";
-
+import Have from "../components/Tabs/Have.js";
+import I from "../components/Tabs/I.js";
 
 class Profile extends React.Component{
     render(){
@@ -54,8 +55,12 @@ class Profile extends React.Component{
                                 <TabPanel>
                                     <Me />
                                 </TabPanel>
-                                <TabPanel><h2>Any content 2 </h2></TabPanel>
-                                <TabPanel><h2>Any content 3</h2></TabPanel>
+                                <TabPanel>
+                                    <Have />
+                                </TabPanel>
+                                <TabPanel>
+                                    <I />
+                                </TabPanel>
                             </Tabs>
                        </div>
                   </div>
