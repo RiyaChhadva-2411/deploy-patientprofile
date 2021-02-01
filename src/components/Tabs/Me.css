@@ -22,3 +22,13 @@
     margin-bottom: 50px;
 
 }
+/*For medium and large devices*/
+@media(min-width:800px) and (max-width: 1200px){
+    .Me__property{
+        padding-left: 70px;
+    }
+    .Me__hr{
+        width: 512px;
+        margin-left: 70px;
+    }
+}
