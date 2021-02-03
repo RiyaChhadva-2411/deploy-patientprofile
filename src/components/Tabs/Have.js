@@ -55,7 +55,7 @@ class Have extends React.Component{
                         <div className="Have__property">Chronic Diseases :</div>
                     </div>
                     <div className="col-md-9">
-                        <div className="Have__value">Asthma, Cystic fibrosis</div>
+                        <div className="Have__value Have__Cdisease">Asthma, Cystic fibrosis</div>
                     </div>
                 </div>
                 <hr className="Have__hr" />
@@ -66,7 +66,7 @@ class Have extends React.Component{
                         <div className="Have__property">Heridatory Diseases :</div>
                     </div>
                     <div className="col-md-9">
-                        <div className="Have__value">Penicilin, Serum B</div>
+                        <div className="Have__value Have__Hdisease">Penicilin, Serum B</div>
                     </div>
                 </div>
                 <hr className="Have__hr" />

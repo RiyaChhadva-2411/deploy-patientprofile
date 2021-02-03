@@ -1,5 +1,8 @@
 import React from 'react';
 import "./Me.css";
+import circle from "../../svg/circle.png";
+import minus from "../../svg/minus.png";
+import plus from "../../svg/plus.svg";
 
 class Me extends React.Component{
     render(){
@@ -73,6 +76,17 @@ class Me extends React.Component{
                   </div>
               </div>
               <hr className="Me__hr"></hr>
+
+              {/*Seventh row*/}
+              <div className="row">
+                  <div className="col-md-3">
+                      <div className="Me__property">City :</div>
+                  </div>
+                  <div className="col-md-9">
+                      <div className="Me__value">Solapur</div>
+                  </div>
+              </div>
+              <hr className="Me__hr" />
           </div>
             
         );

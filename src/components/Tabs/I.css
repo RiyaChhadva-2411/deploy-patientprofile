@@ -20,3 +20,53 @@
     margin-top: 10px;
     margin-bottom: 50px;
 }
+
+/*For small and medium devices*/
+@media(min-width:576px) and (max-width:800px){
+    .I__hr{
+        width:340px;
+        margin-left:95px;
+        margin-top:10px;
+        margin-bottom:20px;
+    }
+    .I__property{
+        font-size:13px;
+        padding-left: 95px;
+        width: max-content;
+    }
+    .I__value{
+        font-size:13px;
+        line-height: 20px;
+        padding-left: 50px;
+    }
+    .I__food{
+        padding-left: 95px;
+    }
+    .I__tobacco{
+        padding-left:100px;
+    }
+}
+/*For medium and large devices*/
+@media(min-width:800px) and (max-width:1200px){
+    .I__property{
+        font-size: 15px;
+        padding-left: 70px;
+        width: max-content;
+    }
+    .I__value{
+        font-size: 15px;
+        color: #291E17;
+    }
+    .I__hr{
+        width: 450px;
+        margin-left: 70px;
+        margin-top:10px;
+        margin-bottom: 20px;
+    }
+    .I__food{
+        padding-left: 50px;
+    }
+    .I__tobacco{
+        padding-left:50px;
+    }
+}

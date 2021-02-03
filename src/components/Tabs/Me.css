@@ -20,15 +20,55 @@
     margin-left: 0px;
     margin-top: 10px;
     margin-bottom: 50px;
+}
+/* .Me__circlesvg{
+    padding-left: 31px;
+}
+.Me__minus{
+    position: absolute;
+} */
 
+/*For small and medium devices*/
+@media (min-width:576px) and (max-width:800px){
+    .Me__property{
+        font-size:13px;
+        padding-left: 95px;
+        width: max-content;
+    }
+    .Me__value{
+        font-size:13px;
+        line-height: 20px;
+        padding-left: 50px;
+    }
+    .Me__emergency-number{
+        padding-left: 110px;
+        width: max-content;
+    }
+    .Me__hr{
+        width:340px;
+        margin-left:95px;
+        margin-top:10px;
+        margin-bottom:20px;
+    }
 }
 /*For medium and large devices*/
 @media(min-width:800px) and (max-width: 1200px){
     .Me__property{
         padding-left: 70px;
+        font-size: 15px;
+        width:max-content;
     }
     .Me__hr{
-        width: 512px;
+        width: 450px;
         margin-left: 70px;
+        font-size: 15px;
+        margin-top:10px;
+        margin-bottom: 20px;
+    }
+    .Me__emergency-number{
+        padding-left: 70px;
+    }
+    .Me__value{
+        font-size: 15px;
     }
 }
