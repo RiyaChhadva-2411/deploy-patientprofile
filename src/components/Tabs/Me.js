@@ -3,7 +3,20 @@ import "./Me.css";
 import circle from "../../svg/circle.png";
 import minus from "../../svg/minus.png";
 import plus from "../../svg/plus.svg";
-
+import Dropdown from 'react-dropdown';
+const stateOptions=[
+    "Goa",
+    "Punjab",
+    "Gujarat",
+    "Uttar Pradesh",
+    "Madhya Pradesh",
+    "Karnataka",
+    "Telangana",
+    "Bihar",
+    "Jammu & Kashmir",
+    "Maharashtra"
+]
+const defaultOption= "Select your state";
 class Me extends React.Component{
     render(){
         return(
@@ -72,7 +85,7 @@ class Me extends React.Component{
                       <div className="Me__property">State :</div>
                   </div>
                   <div className="col-md-9">
-                      <div className="Me__value Me__state">Maharashtra</div>
+                      <div className="Me__value Me__state"><Dropdown menuClassName="myMenuClassName" className="myClassName" options={stateOptions} onChange={this._select} value={defaultOption} placeholder="Select your State"/></div>
                   </div>
               </div>
               <hr className="Me__hr"></hr>
