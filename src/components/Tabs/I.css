@@ -23,22 +23,22 @@
 }
 
 .myClassName{
-    background: rgba(234, 234, 234, 0.4);
-    width: 247px;
+    background: rgba(234, 234, 234, 0.4) !important;
+    width: 247px !important;
     
-    backdrop-filter: blur(44px);
+    backdrop-filter: blur(44px) !important;
 }
 .myMenuClassName{
-    background: rgba(234, 234, 234, 0.4);
+    background: rgba(234, 234, 234, 0.4) !important;
     height:255px !important;
     /* backdrop-filter: blur(44px);*/
 }
 .Dropdown-placeholder{
-    padding: 14px 23px 10px 23px;
+    padding: 14px 23px 10px 23px !important;
 }
 .Dropdown-option{
-    padding: 14px 0px 10px 23px;
-    border-top: 0.4px solid #CC9B66;
+    padding: 14px 0px 10px 23px !important;
+    border-top: 0.4px solid #CC9B66 !important;
 }
 /*For small and medium devices*/
 @media(min-width:576px) and (max-width:800px){
