@@ -9,7 +9,8 @@
     font-size: 18px;
     line-height: 28px;
     font-weight: 300;
-    color: #291E17;
+    color: #000000;
+    padding-left: 23px ;
 }
 .I__hr{
     width: 689px;
@@ -20,7 +21,30 @@
     margin-top: 10px;
     margin-bottom: 50px;
 }
-
+.Drink__dropdown{
+    width: 274px;
+    height: 247px;
+    background: rgba(234, 234, 234, 0.4);
+    backdrop-filter: blur(44px);
+}
+.myClassName{
+    background: rgba(234, 234, 234, 0.4);
+    width: 247px;
+    
+    backdrop-filter: blur(44px);
+}
+.myMenuClassName{
+    background: rgba(234, 234, 234, 0.4);
+    height:255px;
+    /* backdrop-filter: blur(44px);*/
+}
+.Dropdown-placeholder{
+    padding: 14px 23px 10px 23px;
+}
+.Dropdown-option{
+    padding: 14px 0px 10px 23px;
+    border-top: 0.4px solid #CC9B66;
+}
 /*For small and medium devices*/
 @media(min-width:576px) and (max-width:800px){
     .I__hr{
