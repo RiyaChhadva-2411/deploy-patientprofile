@@ -85,7 +85,7 @@ class Me extends React.Component{
                       <div className="Me__property">State :</div>
                   </div>
                   <div className="col-md-9">
-                      <div className="Me__value Me__state"><Dropdown menuClassName="myMenuClassName" className="myClassName" options={stateOptions} onChange={this._select} value={defaultOption} placeholder="Select your State"/></div>
+                      <div className="Me__value"><Dropdown menuClassName="myMenuClassMeClass" className="myClassMeName" options={stateOptions} onChange={this._select} value={defaultOption} placeholder="Select your State"/></div>
                   </div>
               </div>
               <hr className="Me__hr"></hr>

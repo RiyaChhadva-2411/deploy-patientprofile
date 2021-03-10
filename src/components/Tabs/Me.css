@@ -21,31 +21,22 @@
     margin-top: 10px;
     margin-bottom: 50px;
 }
-.myClassName{
-     background: rgba(234, 234, 234, 0.4) !important;
-    width: 247px !important;
-    
-    backdrop-filter: blur(44px);
-}
-.myMenuClassName{
-    background: rgba(234, 234, 234, 0.4) !important;
-    height:520px !important;
-    /* backdrop-filter: blur(44px);*/
-}
 .Dropdown-placeholder{
     padding: 14px 23px 10px 23px !important;
 }
 .Dropdown-option{
     padding: 14px 0px 10px 23px !important;
     border-top: 0.4px solid #CC9B66 !important;
+    backdrop-filter: blur(44px)
 }
-/* .Me__circlesvg{
-    padding-left: 31px;
+.myMenuClassMeClass{
+    background: rgba(234, 234, 234, 0.4) 
 }
-.Me__minus{
-    position: absolute;
-} */
+.myClassMeName{
+    background: rgba(234, 234, 234, 0.4);
+    width: 247px;
 
+}
 /*For small and medium devices*/
 @media (min-width:576px) and (max-width:800px){
     .Me__property{
