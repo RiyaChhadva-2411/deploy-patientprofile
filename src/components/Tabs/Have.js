@@ -69,7 +69,9 @@ class Have extends React.Component{
                         <div className="Have__value Have__Hdisease">Penicilin, Serum B</div>
                     </div>
                 </div>
+                
                 <hr className="Have__hr" />
+                <button type="submit" className="btn Have__SaveButton">Save</button>
             </div>
         )
     }

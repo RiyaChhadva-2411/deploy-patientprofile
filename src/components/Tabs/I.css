@@ -40,6 +40,21 @@
     padding: 14px 0px 10px 23px !important;
     border-top: 0.4px solid #CC9B66 !important;
 }
+.I__SaveButton{
+    margin-left: 20%;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    border: 2px solid #CC9B66;
+    color: solid black;
+    font-size: 18px;
+    background-color: #CC9B66;
+ }
+ .I__SaveButton:hover{
+     background-color: #CC9B66;
+     border: none;
+ }
 /*For small and medium devices*/
 @media(min-width:576px) and (max-width:800px){
     .I__hr{

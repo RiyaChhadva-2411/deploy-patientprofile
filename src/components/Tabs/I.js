@@ -114,6 +114,7 @@ class I extends React.Component{
                 </div>
             </div>
             <hr className="I__hr" />
+            <button type="submit" className="btn I__SaveButton">Save</button>
             </div>
         )
     }
