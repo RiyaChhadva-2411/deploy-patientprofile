@@ -89,7 +89,7 @@ class Profile extends React.Component{
                               </div>
                               <hr className="Profile__hr__lines" />
                             </div>
-                           <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                           <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                              <div class="card-body">
                                <form>
                                 <div className="row">
@@ -102,11 +102,54 @@ class Profile extends React.Component{
                                         <button type="submit" className="btn Profile__save-button__button">Save</button>
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row Profile__second-row">
                                     <div className="col-md-6">
-                                        
+                                        <div>
+                                        <div className="Profile__relative__property">Name :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="name" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
                                     </div>
                                     <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">DOB :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="name" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property Profile__phone">Phone<br />number:</div>
+                                        <input type="tel" className="form-control Profile__relative__value" id="phone-number" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">Age :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="age" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property">Status :</div>
+                                        <input type="tel" className="form-control Profile__relative__value" id="phone-number" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">Occupation :</div>
+                                        <input type="text" className="form-control Profile__relative__value Profile__occupation" id="age" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
                                     </div>
                                 </div>
                              </form>
@@ -114,6 +157,8 @@ class Profile extends React.Component{
                         </div>
 
                     </div>
+                    
+
 
                     {/*Sister card*/}
                     <div class="card">
@@ -129,18 +174,61 @@ class Profile extends React.Component{
                                 <div className="row">
                                     <div className="col-md-6">
                                         <img className="Profile__relative__image"/>
-                                        <div className="Profile__relative__relation">Brother<p className="Profile__relative__age"> 23</p></div>
+                                        <div className="Profile__relative__relation">Sister<p className="Profile__relative__age">25</p></div>
                                     </div>
                                     <div className="col-md-6">
                                         <button type="button" className="btn Profile__select-avatar__button">Select avatar</button>
                                         <button type="submit" className="btn Profile__save-button__button">Save</button>
                                     </div>
                                 </div>
-                                <div className="row">
+                                
+                                <div className="row Profile__second-row">
                                     <div className="col-md-6">
-                                        
+                                        <div>
+                                        <div className="Profile__relative__property">Name :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="name" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
                                     </div>
                                     <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">DOB :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="name" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property Profile__phone">Phone<br />number:</div>
+                                        <input type="tel" className="form-control Profile__relative__value" id="phone-number" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">Age :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="age" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property">Status :</div>
+                                        <input type="tel" className="form-control Profile__relative__value" id="phone-number" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">Occupation :</div>
+                                        <input type="text" className="form-control Profile__relative__value Profile__occupation" id="age" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
                                     </div>
                                 </div>
                              </form>
@@ -163,18 +251,61 @@ class Profile extends React.Component{
                                 <div className="row">
                                     <div className="col-md-6">
                                         <img className="Profile__relative__image"/>
-                                        <div className="Profile__relative__relation">Brother<p className="Profile__relative__age"> 23</p></div>
+                                        <div className="Profile__relative__relation">Mother<p className="Profile__relative__age">49</p></div>
                                     </div>
                                     <div className="col-md-6">
                                         <button type="button" className="btn Profile__select-avatar__button">Select avatar</button>
                                         <button type="submit" className="btn Profile__save-button__button">Save</button>
                                     </div>
                                 </div>
-                                <div className="row">
+                                
+                                <div className="row Profile__second-row">
                                     <div className="col-md-6">
-                                        
+                                        <div>
+                                        <div className="Profile__relative__property">Name :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="name" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
                                     </div>
                                     <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">DOB :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="name" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property Profile__phone">Phone<br />number:</div>
+                                        <input type="tel" className="form-control Profile__relative__value" id="phone-number" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">Age :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="age" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property">Status :</div>
+                                        <input type="tel" className="form-control Profile__relative__value" id="phone-number" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">Occupation :</div>
+                                        <input type="text" className="form-control Profile__relative__value Profile__occupation" id="age" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
                                     </div>
                                 </div>
                              </form>
@@ -183,8 +314,545 @@ class Profile extends React.Component{
 
                     </div>
 
+                    {/*Father*/}
+                    <div class="card">
+                            <div class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              <div class="card-header" id="headingFour">
+                                Father
+                              </div>
+                              <hr className="Profile__hr__lines" />
+                            </div>
+                           <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                             <div class="card-body">
+                               <form>
+                                <div className="row">
+                                    <div className="col-md-6">
+                                        <img className="Profile__relative__image"/>
+                                        <div className="Profile__relative__relation">Father<p className="Profile__relative__age">55</p></div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <button type="button" className="btn Profile__select-avatar__button">Select avatar</button>
+                                        <button type="submit" className="btn Profile__save-button__button">Save</button>
+                                    </div>
+                                </div>
+                                
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property">Name :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="name" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">DOB :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="name" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
 
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property Profile__phone">Phone<br />number:</div>
+                                        <input type="tel" className="form-control Profile__relative__value" id="phone-number" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">Age :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="age" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property">Status :</div>
+                                        <input type="tel" className="form-control Profile__relative__value" id="phone-number" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">Occupation :</div>
+                                        <input type="text" className="form-control Profile__relative__value Profile__occupation" id="age" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+                             </form>
+                           </div>
+                        </div>
 
+                    </div>
+
+                    {/*Grandmother*/}
+                    <div class="card">
+                            <div class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              <div class="card-header" id="headingFive">
+                                Grandmother
+                              </div>
+                              <hr className="Profile__hr__lines" />
+                            </div>
+                           <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                             <div class="card-body">
+                               <form>
+                                <div className="row">
+                                    <div className="col-md-6">
+                                        <img className="Profile__relative__image"/>
+                                        <div className="Profile__relative__relation">Grandmother<p className="Profile__relative__age">68</p></div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <button type="button" className="btn Profile__select-avatar__button">Select avatar</button>
+                                        <button type="submit" className="btn Profile__save-button__button">Save</button>
+                                    </div>
+                                </div>
+                                
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property">Name :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="name" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">DOB :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="name" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property Profile__phone">Phone<br />number:</div>
+                                        <input type="tel" className="form-control Profile__relative__value" id="phone-number" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">Age :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="age" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property">Status :</div>
+                                        <input type="tel" className="form-control Profile__relative__value" id="phone-number" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">Occupation :</div>
+                                        <input type="text" className="form-control Profile__relative__value Profile__occupation" id="age" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+                             </form>
+                           </div>
+                        </div>
+
+                    </div>
+                    
+                    {/*Grandfather*/}
+                    <div class="card">
+                            <div class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                              <div class="card-header" id="headingSix">
+                                Grandfather
+                              </div>
+                              <hr className="Profile__hr__lines" />
+                            </div>
+                           <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                             <div class="card-body">
+                               <form>
+                                <div className="row">
+                                    <div className="col-md-6">
+                                        <img className="Profile__relative__image"/>
+                                        <div className="Profile__relative__relation">Grandfather<p className="Profile__relative__age">75</p></div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <button type="button" className="btn Profile__select-avatar__button">Select avatar</button>
+                                        <button type="submit" className="btn Profile__save-button__button">Save</button>
+                                    </div>
+                                </div>
+                                
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property">Name :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="name" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">DOB :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="name" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property Profile__phone">Phone<br />number:</div>
+                                        <input type="tel" className="form-control Profile__relative__value" id="phone-number" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">Age :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="age" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property">Status :</div>
+                                        <input type="tel" className="form-control Profile__relative__value" id="phone-number" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">Occupation :</div>
+                                        <input type="text" className="form-control Profile__relative__value Profile__occupation" id="age" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+                             </form>
+                           </div>
+                        </div>
+
+                    </div>
+
+                    {/*Son*/}
+                    <div class="card">
+                            <div class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                              <div class="card-header" id="headingSeven">
+                                Son
+                              </div>
+                              <hr className="Profile__hr__lines" />
+                            </div>
+                           <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                             <div class="card-body">
+                               <form>
+                                <div className="row">
+                                    <div className="col-md-6">
+                                        <img className="Profile__relative__image"/>
+                                        <div className="Profile__relative__relation">Son<p className="Profile__relative__age">15</p></div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <button type="button" className="btn Profile__select-avatar__button">Select avatar</button>
+                                        <button type="submit" className="btn Profile__save-button__button">Save</button>
+                                    </div>
+                                </div>
+                                
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property">Name :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="name" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">DOB :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="name" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property Profile__phone">Phone<br />number:</div>
+                                        <input type="tel" className="form-control Profile__relative__value" id="phone-number" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">Age :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="age" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property">Status :</div>
+                                        <input type="tel" className="form-control Profile__relative__value" id="phone-number" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">Occupation :</div>
+                                        <input type="text" className="form-control Profile__relative__value Profile__occupation" id="age" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+                             </form>
+                           </div>
+                        </div>
+
+                    </div>
+
+                    {/*Daughter*/}
+                    <div class="card">
+                            <div class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                              <div class="card-header" id="headingEight">
+                                Daughter
+                              </div>
+                              <hr className="Profile__hr__lines" />
+                            </div>
+                           <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+                             <div class="card-body">
+                               <form>
+                                <div className="row">
+                                    <div className="col-md-6">
+                                        <img className="Profile__relative__image"/>
+                                        <div className="Profile__relative__relation">Daughter<p className="Profile__relative__age">20</p></div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <button type="button" className="btn Profile__select-avatar__button">Select avatar</button>
+                                        <button type="submit" className="btn Profile__save-button__button">Save</button>
+                                    </div>
+                                </div>
+                                
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property">Name :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="name" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">DOB :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="name" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property Profile__phone">Phone<br />number:</div>
+                                        <input type="tel" className="form-control Profile__relative__value" id="phone-number" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">Age :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="age" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property">Status :</div>
+                                        <input type="tel" className="form-control Profile__relative__value" id="phone-number" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">Occupation :</div>
+                                        <input type="text" className="form-control Profile__relative__value Profile__occupation" id="age" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+                             </form>
+                           </div>
+                        </div>
+
+                    </div>
+
+                    {/*Child*/}
+                    <div class="card">
+                            <div class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                              <div class="card-header" id="headingNine">
+                                Child
+                              </div>
+                              <hr className="Profile__hr__lines" />
+                            </div>
+                           <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+                             <div class="card-body">
+                               <form>
+                                <div className="row">
+                                    <div className="col-md-6">
+                                        <img className="Profile__relative__image"/>
+                                        <div className="Profile__relative__relation">Child<p className="Profile__relative__age">08</p></div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <button type="button" className="btn Profile__select-avatar__button">Select avatar</button>
+                                        <button type="submit" className="btn Profile__save-button__button">Save</button>
+                                    </div>
+                                </div>
+                                
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property">Name :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="name" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">DOB :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="name" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property Profile__phone">Phone<br />number:</div>
+                                        <input type="tel" className="form-control Profile__relative__value" id="phone-number" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">Age :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="age" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property">Status :</div>
+                                        <input type="tel" className="form-control Profile__relative__value" id="phone-number" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">Occupation :</div>
+                                        <input type="text" className="form-control Profile__relative__value Profile__occupation" id="age" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+                             </form>
+                           </div>
+                        </div>
+
+                    </div>
+
+                    {/*Friend*/}
+                    <div class="card">
+                            <div class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                              <div class="card-header" id="headingTen">
+                                Friend
+                              </div>
+                              <hr className="Profile__hr__lines" />
+                            </div>
+                           <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+                             <div class="card-body">
+                               <form>
+                                <div className="row">
+                                    <div className="col-md-6">
+                                        <img className="Profile__relative__image"/>
+                                        <div className="Profile__relative__relation">Friend<p className="Profile__relative__age">33</p></div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <button type="button" className="btn Profile__select-avatar__button">Select avatar</button>
+                                        <button type="submit" className="btn Profile__save-button__button">Save</button>
+                                    </div>
+                                </div>
+                                
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property">Name :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="name" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">DOB :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="name" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property Profile__phone">Phone<br />number:</div>
+                                        <input type="tel" className="form-control Profile__relative__value" id="phone-number" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">Age :</div>
+                                        <input type="text" className="form-control Profile__relative__value" id="age" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+                                <div className="row Profile__second-row">
+                                    <div className="col-md-6">
+                                        <div>
+                                        <div className="Profile__relative__property">Status :</div>
+                                        <input type="tel" className="form-control Profile__relative__value" id="phone-number" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                    <div className="col-md-6">
+                                    <div>
+                                        <div className="Profile__relative__property">Occupation :</div>
+                                        <input type="text" className="form-control Profile__relative__value Profile__occupation" id="age" placeholder=" " />
+                                        </div>
+                                        <hr className="Profile__hr" />
+                                    </div>
+                                </div>
+                             </form>
+                           </div>
+                        </div>
+
+                    </div>
+                    <div className="Profile__last-hr" />
                      
                      </div>
                     }

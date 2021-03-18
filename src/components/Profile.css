@@ -135,7 +135,7 @@
     color: #000000;
     font-weight: 600;
     float: left;
-    margin-left: 150px;
+     margin-left: 100px;
     margin-bottom: 50px;
 }
 .Profile__AddCustomButton{
@@ -150,7 +150,7 @@
     width: 149px;
     height: 51px;
     float: right;
-    margin-left: 300px;
+    margin-left: 252px;
     margin-right: 100px;
 }
 .accordion__button:before{
@@ -178,7 +178,7 @@
     font-weight: 500;
     font-size: 22px;
     color: #291E17;
-    margin-left: 120px;
+    margin-left: 75px;
 }
 .card{
     position: relative;
@@ -194,15 +194,18 @@
     border-radius: none !important;
 }
 .Profile__hr__lines{
-    width: 679px;
+    width: 629px;
     border: 1.2px solid #CC9B66;
     background-color: #CC9B66;
     margin-top: 17px !important;
     margin-bottom: 0px !important;
-    margin-left: 80px;
+     margin-left: 30px;
 }
 .card-body{
     padding-top: 8px;
+    background-color: #FCFCFC;
+    margin-left: 43px;
+   margin-right: 200px;
 }
 
 .Profile__relative__image{
@@ -213,12 +216,12 @@
     box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
     border-radius: 41px;
     float: left;
-    margin-left: 100px;
+    margin-left: 15px;
 }
 .Profile__relative__relation{
     float: right;
     position: absolute;
-    left: 250px;
+    left: 155px;
     top: 30px;
     color: #291E17;
     font-size: 22px;
@@ -240,7 +243,8 @@
     width: 117px;
     padding:1px 8px 1px 7px;
     margin-right: 30px;
-    margin-top: 14px;
+    margin-top:5px;
+    margin-left: 50px;
 }
 .Profile__save-button__button{
     width: 70px;
@@ -249,7 +253,52 @@
     border-radius: 30px;
     color: #A6DB31;
     padding: 1px 7px 1px 7px;
-    margin-top: 14px;
+    margin-top: 5px;
+}
+.btn{
+    padding-bottom:0px !important ;
+}
+.Profile__second-row{
+    margin-top: 15px;
+}
+.Profile__relative__property{
+    float: left  !important;
+    margin-left: 10px;
+    font-size: 17px;
+    line-height: 20px;
+    color: #291E17;
+    font-weight: normal;
+}
+.Profile__relative__value{
+    position: absolute;
+    left: 95px;
+}
+.form-control{
+    display: flex !important;
+    width:60% !important;
+    padding: 0px !important;
+    font-size: 17px !important;
+    color: #000000 !important;
+    background-color: #FCFCFC !important;
+    background-clip: none !important;
+    border: none !important;
+    border-radius: none !important;
+}
+.Profile__hr{
+    margin-top: 32px !important;
+    width: 254px;
+    border: 0.6px solid #CC9B66;
+    margin-left: 10px;
+}
+.Profile__phone{
+    margin-top: -10px;
+}
+.Profile__occupation{
+    margin-left: 40px !important;
+    width: 150px !important;
+}
+.Profile__last-hr{
+    margin-bottom: 50px;
 }
 /*For small and medium devices*/
 @media (min-width:576px) and (max-width:800px){
