@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/deploy-patientprofile/static/css/main.b5e6a0c8.chunk.css",
-    "main.js": "/deploy-patientprofile/static/js/main.6c453144.chunk.js",
-    "main.js.map": "/deploy-patientprofile/static/js/main.6c453144.chunk.js.map",
+    "main.css": "/deploy-patientprofile/static/css/main.88c5e243.chunk.css",
+    "main.js": "/deploy-patientprofile/static/js/main.3794d35d.chunk.js",
+    "main.js.map": "/deploy-patientprofile/static/js/main.3794d35d.chunk.js.map",
     "runtime-main.js": "/deploy-patientprofile/static/js/runtime-main.9b767f1d.js",
     "runtime-main.js.map": "/deploy-patientprofile/static/js/runtime-main.9b767f1d.js.map",
     "static/css/2.27175f2b.chunk.css": "/deploy-patientprofile/static/css/2.27175f2b.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.fb2976a5.chunk.js.map": "/deploy-patientprofile/static/js/2.fb2976a5.chunk.js.map",
     "index.html": "/deploy-patientprofile/index.html",
     "static/css/2.27175f2b.chunk.css.map": "/deploy-patientprofile/static/css/2.27175f2b.chunk.css.map",
-    "static/css/main.b5e6a0c8.chunk.css.map": "/deploy-patientprofile/static/css/main.b5e6a0c8.chunk.css.map",
+    "static/css/main.88c5e243.chunk.css.map": "/deploy-patientprofile/static/css/main.88c5e243.chunk.css.map",
     "static/js/2.fb2976a5.chunk.js.LICENSE.txt": "/deploy-patientprofile/static/js/2.fb2976a5.chunk.js.LICENSE.txt",
     "static/media/plus.d734f1ee.svg": "/deploy-patientprofile/static/media/plus.d734f1ee.svg",
     "static/media/staticphoto.d3843940.png": "/deploy-patientprofile/static/media/staticphoto.d3843940.png",
@@ -20,7 +20,7 @@
     "static/js/runtime-main.9b767f1d.js",
     "static/css/2.27175f2b.chunk.css",
     "static/js/2.fb2976a5.chunk.js",
-    "static/css/main.b5e6a0c8.chunk.css",
-    "static/js/main.6c453144.chunk.js"
+    "static/css/main.88c5e243.chunk.css",
+    "static/js/main.3794d35d.chunk.js"
   ]
 }
