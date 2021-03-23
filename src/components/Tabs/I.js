@@ -74,7 +74,7 @@ class I extends React.Component{
                 {/*Third row*/}
                 <div className="row">
                     <div className="col-md-3">
-                        <div className="I__property">Chewing Tobacco :</div>
+                        <div className="I__property I__ChewingTobacco">Chewing Tobacco :</div>
                     </div>
                     <div className="col-md-9">
                         <div className="I__value I__tobacco"><Dropdown menuClassName="myMenuClassName" className="myClassName" options={tobaccoOptions} onChange={this._select} value={defaultOption} placeholder="Select an option"/></div>

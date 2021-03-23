@@ -47,7 +47,7 @@ class Profile extends React.Component{
                         </div>
 
                         <div className="Profile__icon">
-                            <img src={rectangle} alt="image-of-rectangle" className="Profile__rectangle"/><span><img src={plus} alt="plus" onClick={this.handleOnClick} className="Profile__plus"/></span>
+                            <img src={plus} alt="plus" onClick={this.handleOnClick} className="Profile__plus"/>
                         </div>
                     </div>
                        <div className="col-md-8 Tabs__column">
