@@ -113,7 +113,7 @@ class Me extends React.Component{
               {/*Second Row*/}
               <div className="row">
               <div className="col-md-3">
-                  <div className="Me__property">Emergency Contact :</div>
+                  <div className="Me__property Me__Emergency">Emergency Contact :</div>
               </div>
               <div className="col-md-9">
                   <div className="Me__value Me__emergency-number">Yash Katare - 86689473934</div>

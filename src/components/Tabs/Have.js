@@ -63,7 +63,7 @@ class Have extends React.Component{
                 {/*Sixth row*/}
                 <div className="row">
                     <div className="col-md-3">
-                        <div className="Have__property">Heridatory Diseases :</div>
+                        <div className="Have__property Have__Heridatory">Heridatory Diseases :</div>
                     </div>
                     <div className="col-md-9">
                         <div className="Have__value Have__Hdisease">Penicilin, Serum B</div>

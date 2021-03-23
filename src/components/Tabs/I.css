@@ -4,6 +4,7 @@
     font-size: 18px;
     line-height: 21px;
     font-weight: bold;
+    padding-left: 30px;
 }
 .I__value{
     font-size: 18px;
@@ -13,9 +14,9 @@
     padding-left: 23px ;
 }
 .I__hr{
-    width: 689px;
+    width: 700px;
     height: 0px;
-    border: 2px solid #CC9B66;
+    border: 1.5px solid #CC9B66;
     background-color:#CC9B66 ;
     margin-left: 0px;
     margin-top: 10px;

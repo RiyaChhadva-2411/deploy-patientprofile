@@ -5,6 +5,10 @@
     font-size: 18px;
     line-height: 21px;
     font-weight: bold;
+    padding-left: 30px;
+}
+.Me__Emergency{
+    width: 210px;
 }
 .Me__value{
     font-size: 18px;
@@ -13,9 +17,9 @@
     color: #291E17;
 }
 .Me__hr{
-    width: 689px;
+    width: 700px;
     height: 0px;
-    border: 2px solid #CC9B66;
+    border: 1.5px solid #CC9B66;
     background-color:#CC9B66 ;
     margin-left: 0px;
     margin-top: 10px;
@@ -27,10 +31,13 @@
 .Dropdown-option{
     padding: 14px 0px 10px 23px !important;
     border-top: 0.4px solid #CC9B66 !important;
-    backdrop-filter: blur(44px)
+    
 }
 .myMenuClassMeClass{
-    background: rgba(234, 234, 234, 0.4) 
+    background: rgba(234, 234, 234, 0.4);
+    height: 300px;
+    /* z-index: 999 !important; */
+    overflow-y:scroll;
 }
 .myClassMeName{
     background: rgba(234, 234, 234, 0.4);

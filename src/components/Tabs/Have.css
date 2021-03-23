@@ -5,6 +5,10 @@
     font-weight: bold;
     line-height: 21px;
     color: #291E17;
+    padding-left: 30px;
+}
+.Have__Heridatory{
+    width: 210px;
 }
 .Have__value{
     font-size: 18px;
@@ -14,9 +18,9 @@
     color: #291E17;
 }
 .Have__hr{
-    width: 689px;
+    width: 700px;
     height: 0px;
-    border: 2px solid #CC9B66;
+    border: 1.5px solid #CC9B66;
     background-color:#CC9B66 ;
     margin-left: 0px;
     margin-top: 10px;
