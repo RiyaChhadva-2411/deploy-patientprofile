@@ -183,12 +183,14 @@
     border-bottom: none !important;
     margin-bottom: 0px;
     padding: 0rem 0rem;
-    text-decoration-line: none !important;
     text-align: left;
     font-weight: 500;
     font-size: 22px;
     color: #291E17;
-    margin-left: 75px;
+    margin-left: 80px;
+}
+.card-header :hover{
+    text-decoration: none !important;
 }
 .card{
     position: relative;
@@ -204,18 +206,18 @@
     border-radius: none !important;
 }
 .Profile__hr__lines{
-    width: 629px;
+    width: 679px;
     border: 1.2px solid #CC9B66;
     background-color: #CC9B66;
     margin-top: 17px !important;
     margin-bottom: 0px !important;
-     margin-left: 30px;
+     margin-left: 40px;
 }
 .card-body{
     padding-top: 8px;
     background-color: #FCFCFC;
-    margin-left: 43px;
-    width: 629px;
+    margin-left: 53px;
+    width: 680px;
 }
 
 .Profile__relative__image{
@@ -273,15 +275,39 @@
 }
 .Profile__relative__property{
     float: left  !important;
-    margin-left: 10px;
+    margin-left: 15px;
     font-size: 17px;
     line-height: 20px;
     color: #291E17;
     font-weight: normal;
 }
-.Profile__relative__value{
+.Profile__relative__right-property{
+    padding-left: 30px;
+}
+
+.Profile__relative__Name{
     position: absolute;
-    left: 95px;
+    left: 90px;
+}
+.Profile__relative__DOB{
+    position: absolute;
+    left: 120px;
+}
+.Profile__relative__Phone{
+    position: absolute;
+    left: 160px;
+}
+.Profile__relative__Age{
+    position: absolute;
+    left: 110px;
+}
+.Profile__relative__Status{
+    position: absolute;
+    left: 90px;
+}
+.Profile__relative__Occupation{
+    position: absolute;
+    left: 130px;
 }
 .form-control{
     display: flex !important;
@@ -296,13 +322,17 @@
 }
 .Profile__hr{
     margin-top: 32px !important;
-    width: 254px;
+    width: 284px;
     border: 0.6px solid #CC9B66;
-    margin-left: 10px;
+    margin-left: 0px;
 }
-.Profile__phone{
-    margin-top: -10px;
+.Profile__hr-right{
+    margin-top: 32px !important;
+    width: 284px;
+    border: 0.6px solid #CC9B66;
+    margin-left: 30px;
 }
+
 .Profile__occupation{
     margin-left: 40px !important;
     width: 150px !important;
