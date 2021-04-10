@@ -65,11 +65,12 @@ class Card extends React.Component{
          <div className="card-body">
            <form onSubmit={this.handleSubmit}>
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-4">
                     <img className="Profile__relative__image"/>
                     <div className="Profile__relative__relation">{this.props.relation}<p className="Profile__relative__age">{this.props.age}</p></div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-8">
+                    <button type="button" className="btn Profile__select-photo__button">Select photo</button>
                     <button type="button" className="btn Profile__select-avatar__button">Select avatar</button>
                     <button type="submit" className="btn Profile__save-button__button">Save</button>
                 </div>
@@ -78,7 +79,7 @@ class Card extends React.Component{
                 <div className="col-md-6">
                     <div>
                     <div className="Profile__relative__property">Name :</div>
-                    <input type="text" onInput={this.handleChange} className="form-control Profile__relative__Name" id="name" name="name" placeholder=" " required />
+                    <input type="text" onInput={this.handleChange} className="form-control Profile__relative__Name" title="*ENTER CHARACTER VALUES ONLY" pattern="[A-Za-z]{1,32}" id="name" name="name" placeholder=" " required />
                     </div>
                     <hr className="Profile__hr" />
                 </div>
@@ -95,7 +96,7 @@ class Card extends React.Component{
                 <div className="col-md-6">
                     <div>
                     <div className="Profile__relative__property Profile__phone">Phone number :</div>
-                    <input type="tel" onInput={this.handleChange} className="form-control Profile__relative__Phone" id="contactNo" name="contactNo" placeholder=" " required />
+                    <input type="tel" title="*NUMBER SHOULD BE OF 10 DIGITS ONLY" pattern="[1-9]{1}[0-9]{9}" onInput={this.handleChange} className="form-control Profile__relative__Phone" id="contactNo" name="contactNo" placeholder=" " required />
                     </div>
                     <hr className="Profile__hr" />
                 </div>
