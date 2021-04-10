@@ -6,6 +6,7 @@ import plus from "../../svg/plus.svg";
 import Dropdown from 'react-dropdown';
 import {ProfileData} from "./ProfileData.js";
 import {sendPatientProfileData} from "./ProfileData.js";
+import detect from "../../svg/detect.png";
 const stateOptions=[
     "Goa",
     "Punjab",
@@ -96,90 +97,82 @@ class Me extends React.Component{
     }
     render(){
         return(
-          <form onSubmit={this.handleSubmit}>
-              {/*First Row*/}
-              <div className="row">
-                  <div className="col-md-3">
-                      <div className="Me__property">Contact :</div>
-                  </div>
-                  <div className="col-md-9">
-                      <div className="Me__value Me__contact-number">Personal 1 - 8668473934</div>
-                      <div className="Me__value Me__contact-number">Personal 2 - 8668473934</div>
-                      <div className="Me__value Me__contact-number">Personal 3 - 8668473934</div>
-                  </div>
-              </div>
-              <hr className="Me__hr"></hr>
-               
-              {/*Second Row*/}
-              <div className="row">
-              <div className="col-md-3">
-                  <div className="Me__property Me__Emergency">Emergency Contact :</div>
-              </div>
-              <div className="col-md-9">
-                  <div className="Me__value Me__emergency-number">Yash Katare - 86689473934</div>
-                  <div className="Me__value Me__emergency-number">Aashay Shirsavde - 86689473934</div>
-              </div>
-              </div>
-              <hr className="Me__hr"></hr>
-              
-              {/*Third Row*/}
-              <div className="row">
-                  <div className="col-md-3">
-                      <div className="Me__property">Email :</div>
-                   </div>
-                   <div className="col-md-9">
-                       <div className="Me__value Me__email-address">gourikannurkar@gmail.com</div>
-                    </div>
-              </div>
-              <hr className="Me__hr"></hr>
-              
-              {/*Fourth row*/}
-              <div className="row">
-                  <div className="col-md-3">
-                      <div className="Me__property">D.O.B : </div>
-                  </div>
-                <div className="col-md-9">
-                  <div className="Me__value Me__actual-dob">13/12/2001</div>
-                </div>
-              </div>
-              <hr className="Me__hr" />
-              
-              {/*Fifth row*/}
-              <div className="row">
-                  <div className="col-md-3">
-                      <div className="Me__property">Status :</div>
-                  </div>
-                  <div className="col-md-9">
-                      <div className="Me__value Me__status">Mostly active</div>
-                  </div>
-              </div>
-              <hr className="Me__hr" />
-              
-              {/*Sixth row*/}
-              <div className="row">
-                  <div className="col-md-3">
-                      <div className="Me__property">State :</div>
-                  </div>
-                  <div className="col-md-9">
-                      <div className="Me__value"><Dropdown menuClassName="myMenuClassMeClass" className="myClassMeName" options={stateOptions} onChange={this._select} value={defaultOption} placeholder="Select your State"/></div>
-                  </div>
-              </div>
-              <hr className="Me__hr"></hr>
+          <div>
+              <div className="Me__container">
+                  <form>
+                      <div className="Me__form">
+                          <div className="form-row Me__Form__dm">
+                              <div className="Me__property">Contact:</div>
+                              <input type="tel" className="form-control Me__ContactNo" title="*NUMBER SHOULD BE OF 10 DIGITS ONLY" pattern="[1-9]{1}[0-9]{9}"  placeholder=" " required />
+                          </div>
+                          <hr className="Me__hr"></hr>
 
-              {/*Seventh row*/}
-              <div className="row">
-                  <div className="col-md-3">
-                      <div className="Me__property">City :</div>
-                  </div>
-                  <div className="col-md-9">
-                      <div className="Me__value">Solapur</div>
-                  </div>
-              </div>
-              <hr className="Me__hr" />
+                          <div className="form-row Me__Form__dm">
+                              <div className="Me__property">Emergency Contact:</div>
+                              <input type="tel" className="form-control Me__EmergencyContactNo" title="*NUMBER SHOULD BE OF 10 DIGITS ONLY" pattern="[1-9]{1}[0-9]{9}"  placeholder=" " required />
+                          </div>
+                          <hr className="Me__hr"></hr>
 
-              <button type="submit" className="btn Me__SaveButton">Save</button>
-          </form>
-            
+                          <div className="form-row Me__Form__dm">
+                              <div className="Me__property">Email:</div>
+                              <input type="email" className="form-control Me__Email" placeholder=" " required />
+                          </div>
+                          <hr className="Me__hr"></hr>
+
+                          <div className="form-row Me__Form__dm">
+                              <div className="Me__property">D.O.B:</div>
+                              <input type="text" className="form-control Me__DOB" placeholder=" " required />
+                          </div>
+                          <hr className="Me__hr"></hr>
+
+                          <div className="form-row Me__Form__dm">
+                              <div className="Me__property">Height:</div>
+                              <input className="form-control Me__Height" placeholder=" " required />
+                          </div>
+                          <hr className="Me__hr"></hr>
+
+                          <div className="form-row Me__Form__dm">
+                              <div className="Me__property">Weight:</div>
+                              <input className="form-control Me__Weight" placeholder=" " required />
+                          </div>
+                          <hr className="Me__hr"></hr>
+
+                          <div className="form-row Me__Form__dm">
+                              <div className="Me__property">Status:</div>
+                              <input className="form-control Me__Status" placeholder=" " required />
+                          </div>
+                          <hr className="Me__hr"></hr>
+
+                          <div className="form-row Me__Form__dm">
+                              <div className="Me__property">Occupation:</div>
+                              <input className="form-control Me__Occupation" placeholder=" " required />
+                          </div>
+                          <hr className="Me__hr"></hr>
+
+                          <div className="form-row Me__Form__dm">
+                              <div className="Me__property">State:</div>
+                              <div className="Me__State__Dropdown"><Dropdown menuClassName="myMenuClassMeClass" className="myClassName" options={stateOptions} onChange={this._select} value={defaultOption} placeholder=" " /></div>
+                          </div>
+                          <hr className="Me__hr"></hr>
+
+                          <div className="form-row Me__Form__dm">
+                              <div className="Me__property">City:</div>
+                              <input className="form-control Me__City" placeholder=" " required />
+                          </div>
+                          <hr className="Me__hr"></hr>
+
+                          <div className="form-row Me__Form__dm">
+                              <div className="Me__property">Locality:</div>
+                              <input className="form-control Me__Locality" placeholder=" " required />
+                          </div>
+                          <hr className="Me__hr"></hr>
+
+                          <div className="Me__DetectMyLocation"><img src={detect} alt="detect" className="Me__detect-image" />Detect Location</div>
+                          <hr className="Me__hr"></hr>
+                      </div>
+                  </form>
+              </div>
+          </div>
         );
     }
 }
