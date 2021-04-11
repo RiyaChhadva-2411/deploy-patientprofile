@@ -16,6 +16,42 @@
     color: #000000;
     padding-left: 23px ;
 }
+ .I__BloodType{
+    margin-left: -50px;
+    margin-top: -15px;
+}
+.I__Brushing{
+    margin-left: -50px;
+    margin-top: -15px;
+}
+.I__Tobacco{
+    margin-left: -50px;
+    margin-top: -15px;
+}
+.I__Drinking{
+    margin-left: -50px;
+    margin-top: -15px;
+}
+.I__Lifestyle{
+    margin-left: -50px;
+    margin-top: -15px;
+}
+.I__Smoking{
+    margin-left: -50px;
+    margin-top: -15px;
+}
+.I__SkinTypes{
+    margin-left: -50px;
+    margin-top: -15px;
+}
+.I__Hairtype{
+    margin-left: -50px;
+    margin-top:-15px;
+}
+.I__FoodPreference{
+    margin-left: -50px;
+    margin-top:-15px
+}
 .I__hr{
     width: 700px;
     height: 0px;
@@ -58,17 +94,27 @@
      background-color: #CC9B66;
      border: none;
  }
+ .I__DetectMyLocation{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    color: #0074DF;
+    margin-left: 220px;
+}
+.I__detect-image{
+    margin-right: 50px;
+}
 /*For small and medium devices*/
 @media(min-width:576px) and (max-width:800px){
     .I__hr{
-        width:340px;
-        margin-left:95px;
+        width:400px;
+        margin-left:-20px;
         margin-top:10px;
         margin-bottom:20px;
     }
     .I__property{
         font-size:13px;
-        padding-left: 95px;
+        padding-left: 0px;
         width: max-content;
     }
     .I__value{
@@ -76,18 +122,43 @@
         line-height: 20px;
         padding-left: 50px;
     }
-    .I__food{
-        padding-left: 95px;
+
+    .I__BloodType{
+        margin-left: -30px;
     }
-    .I__tobacco{
-        padding-left:100px;
+    .I__Brushing{
+        margin-left: -30px;
+    }
+    .I__Tobacco{
+        margin-left: -30px;
+    }
+    .I__Drinking{
+        margin-left: -30px;
+    }
+    .I__Lifestyle{
+        margin-left: -30px;
+    }
+    .I__Smoking{
+        margin-left: -30px;
+    }
+    .I__SkinTypes{
+        margin-left: -30px;
+    }
+    .I__Hairtype{
+        margin-left: -30px;
+    }
+    .I__FoodPreference{
+        margin-left: -30px;
+    }
+    .I__DetectMyLocation{
+        margin-left:70px;
     }
 }
 /*For medium and large devices*/
 @media(min-width:800px) and (max-width:1200px){
     .I__property{
         font-size: 15px;
-        padding-left: 70px;
+        padding-left: 0px;
         width: max-content;
     }
     .I__value{
@@ -95,15 +166,39 @@
         color: #291E17;
     }
     .I__hr{
-        width: 450px;
-        margin-left: 70px;
+        width: 573px;
+        margin-left: -20px;
         margin-top:10px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
-    .I__food{
-        padding-left: 50px;
+    .I__BloodType{
+        margin-left: 30px;
     }
-    .I__tobacco{
-        padding-left:50px;
+    .I__Brushing{
+        margin-left: 30px;
+    }
+    .I__Tobacco{
+        margin-left: 30px;
+    }
+    .I__Drinking{
+        margin-left: 30px;
+    }
+    .I__Lifestyle{
+        margin-left: 30px;
+    }
+    .I__Smoking{
+        margin-left: 30px;
+    }
+    .I__SkinTypes{
+        margin-left: 30px;
+    }
+    .I__Hairtype{
+        margin-left: 30px;
+    }
+    .I__FoodPreference{
+        margin-left: 30px;
+    }
+    .I__DetectMyLocation{
+        margin-left:100px;
     }
 }

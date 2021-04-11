@@ -44,29 +44,42 @@
      background-color: #CC9B66;
      border: none;
  }
+ .Have__DetectMyLocation{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    color: #0074DF;
+    margin-left: 220px;
+}
+.Have__detect-image{
+    margin-right: 50px;
+}
 /*For small and medium devices*/
 @media(min-width: 576px) and (max-width: 800px){
     .Have__hr{
-        width:340px;
-        margin-left:95px;
+        width:400px;
+        margin-left:-20px;
         margin-top:10px;
-        margin-bottom:20px;
+        margin-bottom:50px;
     }
     .Have__property{
         font-size:13px;
-        padding-left: 95px;
+        padding-left: 0px;
         width: max-content;
     }
     .Have__value{
         font-size:13px;
         line-height: 20px;
-        padding-left: 50px;
+        padding-left: 0px;
     }
     .Have__Cdisease{
-        padding-left: 110px;
+        padding-left: 10px;
     }
     .Have__Hdisease{
-        padding-left: 130px;
+        padding-left: 30px;
+    }
+    .Have__DetectMyLocation{
+        margin-left:66px;
     }
 }
 /*For medium and large devices*/
@@ -89,6 +102,6 @@
     .Have__hr{
         margin-left:70px;
         width:459px;
-        margin-bottom:30px;
+        margin-bottom:50px;
     }
 }

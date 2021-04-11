@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Have.css";
-
+import detect from "../../svg/detect.png";
 class Have extends React.Component{
     render(){
         return(
@@ -44,7 +44,7 @@ class Have extends React.Component{
                         <div className="Have__property">Surgies :</div>
                     </div>
                     <div className="col-md-9">
-                        <div className="Have__value">Arthroscopy</div>
+                       <div className="Have__value ">Arthroscopy</div>
                     </div>
                 </div>
                 <hr className="Have__hr" />
@@ -70,6 +70,8 @@ class Have extends React.Component{
                     </div>
                 </div>
                 
+                <hr className="Have__hr" />
+                <div className="Have__DetectMyLocation"><img src={detect} alt="detect" className="Have__detect-image" />Detect Location</div>
                 <hr className="Have__hr" />
                 <button type="submit" className="btn Have__SaveButton">Save</button>
             </div>

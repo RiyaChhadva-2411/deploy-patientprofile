@@ -121,7 +121,7 @@ class Me extends React.Component{
 
                           <div className="form-row Me__Form__dm">
                               <div className="Me__property">D.O.B:</div>
-                              <input type="text" className="form-control Me__DOB" placeholder=" " required />
+                              <input type="text" className="form-control Me__DOB" placeholder="dd/mm/yyyy" required />
                           </div>
                           <hr className="Me__hr"></hr>
 
