@@ -181,8 +181,6 @@ class I extends React.Component{
             </div>
             <hr className="I__hr" />
 
-            <div className="I__DetectMyLocation"><img src={detect} alt="detect" className="I__detect-image" />Detect Location</div>
-            <hr className="I__hr" />
             <button type="submit" className="btn I__SaveButton">Save</button>
             </div>
         )

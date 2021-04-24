@@ -15,6 +15,7 @@ import I from "../components/Tabs/I.js";
 import staticphoto from "../images/staticphoto.png";
 import Card from "./Tabs/Card.js";
 import details from "./Tabs/Details.js";
+import backbutton from "../svg/backbutton.png"
 class Profile extends React.Component{
     constructor(props){
         super(props)
@@ -36,6 +37,9 @@ class Profile extends React.Component{
                                <div className="Profile__firstname">Gouri Kannurkar</div>
                                <div className="Profile__age"><span className="Profile__gender">F</span>/23 Single</div>
                                <div className="Profile__city">Pune</div>
+                        </div>
+                        <div className="Profile__Edit-button">
+                        <button type="button" className="btn Profile__Edit-button-image">Edit</button>
                         </div>
 
                        <div className="Profile__family-details-row1">
@@ -77,7 +81,7 @@ class Profile extends React.Component{
                          <div>
                          <div>
                              <div className="row">
-                             <div className="Profile__RelationshipHeading">Relationships</div>
+                             <div className="Profile__RelationshipHeading"><button type="button" className="btn Profile__backbutton"><img src={backbutton} alt="backbutton" className="Profile__Backbutton" /></button>Relationships</div>
                               <div><button type="button" className="btn Profile__AddCustomButton">+ Add Custom</button></div>
                              </div>
                         </div>

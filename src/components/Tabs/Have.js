@@ -71,8 +71,6 @@ class Have extends React.Component{
                 </div>
                 
                 <hr className="Have__hr" />
-                <div className="Have__DetectMyLocation"><img src={detect} alt="detect" className="Have__detect-image" />Detect Location</div>
-                <hr className="Have__hr" />
                 <button type="submit" className="btn Have__SaveButton">Save</button>
             </div>
         )

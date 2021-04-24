@@ -4,7 +4,7 @@
     padding-left: 97px;
 }
  .Tabs__column{
-    padding-left: 5rem;
+    padding-left: 120px;
 } 
 .Profile__photo{
     width: 190px;
@@ -49,6 +49,20 @@
 .Profile__city{
     font-size: 18px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Profile__Edit-button{
+    padding-top: 10px;
+    margin-left: 402px;
+}
+.Profile__Edit-button-image{
+    width: 65px;
+    height: 29px;
+    background-color: #FFFFFF;
+    border: 1px solid #2D8AE0;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #2D8AE0;
+    padding-top: 0px;
 }
 .Profile__family-details-row1{
     position: absolute;
@@ -114,7 +128,7 @@
 .react-tabs__tab-list{
     border-bottom: 0 !important;
     padding: 0;
-    margin:0px 0px 36px 0px!important;
+    margin:0px 0px 50px 0px!important;
     font-size: 31px !important;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -126,7 +140,7 @@
     position: relative;
     list-style: none !important;
     padding: 0px 0px 0px 0px !important;
-    margin: 46px 120px 0px 5rem !important;
+    margin: 0px 120px 0px 30px !important;
     cursor: pointer;
 }
 .react-tabs__tab--selected{
@@ -137,7 +151,14 @@
 
     
 }
-
+.Profile__backbutton{
+    background-color: #FFFFFF !important;
+    border: 1px solid #FFFFFF;
+    padding: 0 !important;
+    border-radius: none !important;
+    transition: none !important;
+    margin-top: 0px;
+}
 .Profile__RelationshipHeading{
     font-size: 32px;
     line-height: 38px;
@@ -145,8 +166,8 @@
     color: #000000;
     font-weight: 600;
     float: left;
-     margin-left: 100px;
-    margin-bottom: 50px;
+     margin-left: 0px;
+    margin-bottom: 45px;
 }
 .Profile__AddCustomButton{
     margin-right:0px;
@@ -160,7 +181,7 @@
     width: 149px;
     height: 51px;
     float: right;
-    margin-left: 252px;
+    margin-left: 302px;
     margin-right: 100px;
 }
 .accordion__button:before{
@@ -187,7 +208,7 @@
     font-weight: 500;
     font-size: 22px;
     color: #291E17;
-    margin-left: 80px;
+    margin-left: 34px;
 }
 .card-header :hover{
     text-decoration: none !important;
@@ -211,12 +232,12 @@
     background-color: #CC9B66;
     margin-top: 17px !important;
     margin-bottom: 0px !important;
-     margin-left: 40px;
+     margin-left: 0px;
 }
 .card-body{
     padding-top: 8px;
     background-color: #FCFCFC;
-    margin-left: 53px;
+    margin-left: 13px;
     width: 720px;
 }
 
@@ -229,6 +250,7 @@
     border-radius: 41px;
     float: left;
     margin-left: 15px;
+    background-color:#FCFCFC !important;
 }
 .Profile__relative__relation{
     float: right;

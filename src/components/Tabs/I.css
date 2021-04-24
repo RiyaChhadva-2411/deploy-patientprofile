@@ -4,7 +4,7 @@
     font-size: 18px;
     line-height: 21px;
     font-weight: bold;
-    padding-left: 30px;
+    padding-left: 0px;
 }
 .I__ChewingTobacco{
     width: 220px;
@@ -17,47 +17,46 @@
     padding-left: 23px ;
 }
  .I__BloodType{
-    margin-left: -50px;
-    margin-top: -15px;
+    margin-left: -120px;
+    margin-top: -16px;
 }
 .I__Brushing{
-    margin-left: -50px;
-    margin-top: -15px;
+    margin-left: -140px;
+    margin-top: -16px;
 }
 .I__Tobacco{
-    margin-left: -50px;
-    margin-top: -15px;
+    margin-left: -70px;
+    margin-top: -16px;
 }
 .I__Drinking{
-    margin-left: -50px;
-    margin-top: -15px;
+    margin-left: -140px;
+    margin-top: -16px;
 }
 .I__Lifestyle{
-    margin-left: -50px;
-    margin-top: -15px;
+    margin-left: -150px;
+    margin-top: -16px;
 }
 .I__Smoking{
-    margin-left: -50px;
-    margin-top: -15px;
+    margin-left: -140px;
+    margin-top: -16px;
 }
 .I__SkinTypes{
-    margin-left: -50px;
-    margin-top: -15px;
+    margin-left: -140px;
+    margin-top: -16px;
 }
 .I__Hairtype{
-    margin-left: -50px;
-    margin-top:-15px;
+    margin-left: -140px;
+    margin-top:-16px;
 }
 .I__FoodPreference{
-    margin-left: -50px;
-    margin-top:-15px
+    margin-left: -80px;
+    margin-top:-16px
 }
 .I__hr{
     width: 700px;
-    height: 0px;
-    border: 1.5px solid #CC9B66;
+    padding: 0.6px;
     background-color:#CC9B66 ;
-    margin-left: 0px;
+    margin-left: -30px;
     margin-top: 10px;
     margin-bottom: 50px;
 }
@@ -65,7 +64,7 @@
     background: rgba(234, 234, 234, 0.4) !important;
     width: 247px !important;
     
-    backdrop-filter: blur(44px) !important;
+
 }
 .myMenuClassName{
     background: rgba(234, 234, 234, 0.4) !important;
@@ -74,6 +73,7 @@
 }
 .Dropdown-placeholder{
     padding: 14px 23px 10px 23px !important;
+    background-color: #FFFFFF;
 }
 .Dropdown-option{
     padding: 14px 0px 10px 23px !important;
@@ -94,16 +94,7 @@
      background-color: #CC9B66;
      border: none;
  }
- .I__DetectMyLocation{
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 20px;
-    color: #0074DF;
-    margin-left: 220px;
-}
-.I__detect-image{
-    margin-right: 50px;
-}
+
 /*For small and medium devices*/
 @media(min-width:576px) and (max-width:800px){
     .I__hr{
@@ -150,9 +141,7 @@
     .I__FoodPreference{
         margin-left: -30px;
     }
-    .I__DetectMyLocation{
-        margin-left:70px;
-    }
+    
 }
 /*For medium and large devices*/
 @media(min-width:800px) and (max-width:1200px){
@@ -198,7 +187,5 @@
     .I__FoodPreference{
         margin-left: 30px;
     }
-    .I__DetectMyLocation{
-        margin-left:100px;
-    }
+   
 }

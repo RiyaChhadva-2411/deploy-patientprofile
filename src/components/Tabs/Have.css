@@ -5,7 +5,7 @@
     font-weight: bold;
     line-height: 21px;
     color: #291E17;
-    padding-left: 30px;
+    padding-left: 0px;
 }
 .Have__Heridatory{
     width: 210px;
@@ -22,10 +22,9 @@
 }
 .Have__hr{
     width: 700px;
-    height: 0px;
-    border: 1.5px solid #CC9B66;
+    padding: 0.6px;
     background-color:#CC9B66 ;
-    margin-left: 0px;
+    margin-left: -30px;
     margin-top: 10px;
     margin-bottom: 50px;
 }
@@ -44,16 +43,7 @@
      background-color: #CC9B66;
      border: none;
  }
- .Have__DetectMyLocation{
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 20px;
-    color: #0074DF;
-    margin-left: 220px;
-}
-.Have__detect-image{
-    margin-right: 50px;
-}
+
 /*For small and medium devices*/
 @media(min-width: 576px) and (max-width: 800px){
     .Have__hr{
@@ -78,9 +68,7 @@
     .Have__Hdisease{
         padding-left: 30px;
     }
-    .Have__DetectMyLocation{
-        margin-left:66px;
-    }
+   
 }
 /*For medium and large devices*/
 @media(min-width:800px) and (max-width:1200px){

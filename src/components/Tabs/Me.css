@@ -4,12 +4,34 @@
   font-size: 18px;
   line-height: 21px;
   color: #291E17;
-  padding-top: 3px;
+  padding-top: 0px;
 }
 .Me__ContactNo{
     width: 30% !important;
     margin-left: 20px !important;
     background-color: #FFFFFF !important;
+    background: #FFFFFF !important;
+    border: none;
+}
+.Me__ContactNo::-webkit-outer-spin-button,
+.Me__ContactNo::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.Me__Height::-webkit-outer-spin-button,
+.Me__Height::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} 
+.Me__EmergencyContactNo::-webkit-outer-spin-button,
+.Me__EmergencyContactNo::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.Me__Weight::-webkit-outer-spin-button,
+.Me__Weight::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 .Me__EmergencyContactNo{
     margin-left: 20px;
@@ -59,8 +81,7 @@
 .Me__hr{
     margin-top: 14px;
     color: #CC9B66;
-    height: 0.2px;
-    border: 1px solid #CC9B66;
+    padding: 0.6px;
     background-color: #CC9B66;
     margin-left: -30px;
     width: 693px;
@@ -68,6 +89,8 @@
 }
 .Dropdown-placeholder{
     padding: 14px 23px 10px 23px !important;
+    margin-top: -5px;
+    /* background-color:#FFFFFF ; */
 }
 .Dropdown-option{
     padding: 14px 0px 10px 23px !important;
@@ -75,13 +98,13 @@
     
 }
 .myMenuClassMeClass{
-    background: rgba(234, 234, 234, 0.4);
+    background: rgba(255, 255, 255, 0.6) !important;
     height: 300px;
     /* z-index: 999 !important; */
-    overflow-y:scroll;
+     overflow-y:scroll;
 }
 .myClassMeName{
-    background: rgba(234, 234, 234, 0.4);
+    background: rgba(255, 255, 255, 0.6) !important;
     width: 247px;
 
 }
@@ -99,6 +122,21 @@
 .Me__detect-image{
     margin-right: 50px;
 }
+.Me__SaveButton{
+    margin-left: 20%;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    border: 2px solid #CC9B66;
+    color: solid black;
+    font-size: 18px;
+    background-color: #CC9B66;
+ }
+ .Me__SaveButton:hover{
+     background-color: #CC9B66;
+     border: none;
+ }
 /*For medium and large devices*/
 @media(min-width: 576px) and (max-width: 800px){
     .Me__hr{
