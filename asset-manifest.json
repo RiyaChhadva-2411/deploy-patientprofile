@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/deploy-patientprofile/static/css/main.fa62bfea.chunk.css",
-    "main.js": "/deploy-patientprofile/static/js/main.40fb9a3c.chunk.js",
-    "main.js.map": "/deploy-patientprofile/static/js/main.40fb9a3c.chunk.js.map",
+    "main.css": "/deploy-patientprofile/static/css/main.7968b62e.chunk.css",
+    "main.js": "/deploy-patientprofile/static/js/main.b4740739.chunk.js",
+    "main.js.map": "/deploy-patientprofile/static/js/main.b4740739.chunk.js.map",
     "runtime-main.js": "/deploy-patientprofile/static/js/runtime-main.9b767f1d.js",
     "runtime-main.js.map": "/deploy-patientprofile/static/js/runtime-main.9b767f1d.js.map",
     "static/css/2.27175f2b.chunk.css": "/deploy-patientprofile/static/css/2.27175f2b.chunk.css",
-    "static/js/2.5851572c.chunk.js": "/deploy-patientprofile/static/js/2.5851572c.chunk.js",
-    "static/js/2.5851572c.chunk.js.map": "/deploy-patientprofile/static/js/2.5851572c.chunk.js.map",
+    "static/js/2.83e1b68a.chunk.js": "/deploy-patientprofile/static/js/2.83e1b68a.chunk.js",
+    "static/js/2.83e1b68a.chunk.js.map": "/deploy-patientprofile/static/js/2.83e1b68a.chunk.js.map",
     "index.html": "/deploy-patientprofile/index.html",
     "static/css/2.27175f2b.chunk.css.map": "/deploy-patientprofile/static/css/2.27175f2b.chunk.css.map",
-    "static/css/main.fa62bfea.chunk.css.map": "/deploy-patientprofile/static/css/main.fa62bfea.chunk.css.map",
-    "static/js/2.5851572c.chunk.js.LICENSE.txt": "/deploy-patientprofile/static/js/2.5851572c.chunk.js.LICENSE.txt",
+    "static/css/main.7968b62e.chunk.css.map": "/deploy-patientprofile/static/css/main.7968b62e.chunk.css.map",
+    "static/js/2.83e1b68a.chunk.js.LICENSE.txt": "/deploy-patientprofile/static/js/2.83e1b68a.chunk.js.LICENSE.txt",
     "static/media/plus.d734f1ee.svg": "/deploy-patientprofile/static/media/plus.d734f1ee.svg",
     "static/media/staticphoto.d3843940.png": "/deploy-patientprofile/static/media/staticphoto.d3843940.png",
     "static/media/woman.577f9196.png": "/deploy-patientprofile/static/media/woman.577f9196.png"
@@ -19,8 +19,8 @@
   "entrypoints": [
     "static/js/runtime-main.9b767f1d.js",
     "static/css/2.27175f2b.chunk.css",
-    "static/js/2.5851572c.chunk.js",
-    "static/css/main.fa62bfea.chunk.css",
-    "static/js/main.40fb9a3c.chunk.js"
+    "static/js/2.83e1b68a.chunk.js",
+    "static/css/main.7968b62e.chunk.css",
+    "static/js/main.b4740739.chunk.js"
   ]
 }
